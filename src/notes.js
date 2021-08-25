@@ -5,7 +5,6 @@ function add(title, body) {
   const notes = load()
   const newNote = { title, body }
   const found = notes.find(note => note.title === title && note.body === body)
-  debugger
   if (!found) {
     notes.push(newNote)
     save(notes)
