@@ -1,5 +1,3 @@
-const chalk = require('chalk')
-const { argv } = require('yargs')
 const yargs = require('yargs')
 const { add, list, read, remove } = require('./src/notes')
 
